@@ -157,7 +157,7 @@ let package = Package(
             dependencies: [
                 "CTunnelKitCore",
                 "CTunnelKitOpenVPNCore",
-                "openssl-apple"
+                "OpenSSL"
             ]),
         .target(
             name: "__TunnelKitUtils",
